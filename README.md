@@ -8,13 +8,15 @@
 
 使用方式：
 
+```cmd
 HOST -h Host to be scanned,supports four formats:
-	192.168.1.1
-	192.168.1.0/24
+    192.168.1.1
+    192.168.1.0/24
 PORT -p Customize port list，separate with ',' example:
 	21,22,80-99,8000-8080 
 Mysql_intruder -t IP:PORT example: 
 	192.168.1.1:3306
+```
 
 输入需要扫描的内网地址段并输入需要扫描的端口集合![img](image/wps3.jpg)
 
